@@ -81,13 +81,18 @@ Fine-tuning dilakukan dengan menambahkan lapisan dense yang disesuaikan dengan j
 ResNet50 dikenal memiliki kemampuan yang sangat baik dalam mengekstraksi fitur visual berkat penggunaan residual blocks, yang membantu mengatasi vanishing gradient pada jaringan yang sangat dalam.
 Hasil Model:
 Akurasi Training: 43% (seperti terlihat pada laporan klasifikasi).
+
 Akurasi Validasi: 28% (menunjukkan performa yang rendah pada data validasi).
+
 Observasi:
+
 Hasil ini mengindikasikan bahwa model ResNet mengalami kesulitan dalam menangani dataset ini.
 Hal ini mungkin disebabkan oleh:
-Kurangnya data augmentasi untuk meningkatkan generalisasi model.
-Overfitting selama pelatihan, terlihat dari performa yang lebih baik pada data training dibandingkan validasi.
-Dataset mungkin tidak cukup besar untuk melatih model yang kompleks seperti ResNet secara optimal.
+-Kurangnya data augmentasi untuk meningkatkan generalisasi model.
+
+-Overfitting selama pelatihan, terlihat dari performa yang lebih baik pada data training dibandingkan validasi.
+
+-Dataset mungkin tidak cukup besar untuk melatih model yang kompleks seperti ResNet secara optimal.
 
 ![Screenshot 2024-12-25 191311](https://github.com/user-attachments/assets/711860e7-e040-40a7-b2e5-79db8d7c76c5)
 
