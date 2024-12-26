@@ -7,6 +7,7 @@ Proyek ini bertujuan untuk mengembangkan sistem klasifikasi gambar untuk mengide
 2. **ResNet (Residual Neural Network)**
 
 Dataset yang digunakan dapat anda akses pada link :https://data.mendeley.com/datasets/nk3zbvd5h8/1
+
 link Google Drive proyek : https://drive.google.com/drive/folders/1Wncwj4Yxsaxbc4bHWL0Vmr8xffKFe3z0?usp=sharing
 
 Tujuan utama pengembangan proyek ini:
