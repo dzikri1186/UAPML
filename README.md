@@ -82,6 +82,7 @@ Hasil Model:
 Akurasi Training: 97.1% dan Akurasi Validasi: 94.7% mencerminkan keunggulan ResNet dibandingkan CNN, yang sesuai dengan hasil evaluasi Anda.
 
 ![Screenshot 2024-12-25 191311](https://github.com/user-attachments/assets/711860e7-e040-40a7-b2e5-79db8d7c76c5)
+
 Classification Report - CNN :
 
 Semua metrik, yaitu precision, recall, dan F1-score untuk setiap kelas ayam adalah 1.00.
