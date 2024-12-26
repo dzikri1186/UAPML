@@ -51,23 +51,21 @@ PIL (Pillow)
 chicken-breed-classification/
 
 ├── data/                # Folder untuk dataset
-│   ├── train/           # Data training
-│   ├── val/             # Data validasi
-│   ├── test/            # Data pengujian
-
-├── models/              # Folder untuk model
-│   ├── cnn_model.h5     # Model CNN
-│   ├── resnet_model.h5  # Model ResNet
-
-├── scripts/             # Folder untuk script
+│   ├── train/           # Data untuk training model
+│   ├── val/             # Data untuk validasi model
+│   ├── test/            # Data untuk pengujian model
+├── models/              # Folder untuk menyimpan model
+│   ├── cnn_model.h5     # Model CNN yang telah dilatih
+│   ├── resnet_model.h5  # Model ResNet yang telah dilatih
+├── scripts/             # Folder untuk script Python
 │   ├── train_cnn.py     # Script untuk training CNN
 │   ├── train_resnet.py  # Script untuk training ResNet
 │   ├── evaluate_models.py # Script untuk evaluasi model
+├── web_app/             # Folder untuk aplikasi Streamlit
+│   ├── app.py           # Script utama aplikasi Streamlit
+├── requirements.txt     # File untuk daftar dependencies
+├── README.md            # Dokumentasi proyek
 
-├── web_app/             # Folder untuk aplikasi web
-│   ├── app.py           # Aplikasi Streamlit
-├── requirements.txt     # Daftar dependencies
-└── README.md            # Dokumentasi proyek
 
 ## CNN (Convolutional Neural Network)
 ### Struktur Lapisan Utama:
