@@ -55,18 +55,16 @@ PIL (Pillow)
 
 # CNN (Convolutional Neural Network)
 Struktur Lapisan Utama:
-
-Conv2D: Digunakan untuk mengekstrak fitur dari citra dengan kernel berukuran 3x3.
-MaxPooling2D: Berfungsi untuk mengurangi dimensi data sekaligus mempertahankan fitur penting.
-Dense Layer: Lapisan fully connected untuk melakukan klasifikasi akhir.
-Dropout: Digunakan untuk mencegah overfitting selama pelatihan.
-Arsitektur CNN yang digunakan telah dirancang dengan konfigurasi ini untuk memastikan model dapat belajar dari dataset dengan baik tanpa overfitting.
+-Conv2D: Digunakan untuk mengekstrak fitur dari citra dengan kernel berukuran 3x3.
+-MaxPooling2D: Berfungsi untuk mengurangi dimensi data sekaligus mempertahankan fitur penting.
+-Dense Layer: Lapisan fully connected untuk melakukan klasifikasi akhir.
+-Dropout: Digunakan untuk mencegah overfitting selama pelatihan.
+-Arsitektur CNN yang digunakan telah dirancang dengan konfigurasi ini untuk memastikan model dapat belajar dari dataset dengan baik tanpa overfitting.
 
 Hasil Model:
-
-Akurasi Training: 100% (seperti yang terlihat dari confusion matrix dan laporan klasifikasi).
-Akurasi Validasi: 100% (model memberikan prediksi sempurna pada data validasi).
-Observasi: Hasil ini menunjukkan bahwa CNN memiliki performa luar biasa dalam mengklasifikasikan jenis ayam dari citra, tanpa kesalahan.
+-Akurasi Training: 100% (seperti yang terlihat dari confusion matrix dan laporan klasifikasi).
+-Akurasi Validasi: 100% (model memberikan prediksi sempurna pada data validasi).
+-Observasi: Hasil ini menunjukkan bahwa CNN memiliki performa luar biasa dalam mengklasifikasikan jenis ayam dari citra, tanpa kesalahan.
 
 
 ## ResNet (Residual Neural Network)
