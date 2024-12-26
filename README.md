@@ -51,9 +51,12 @@ PIL (Pillow)
 chicken-breed-classification/
 
 ├── data/                # Folder untuk dataset
-│   ├── train/           # Data training
-│   ├── val/             # Data validasi
-│   ├── test/            # Data pengujian
+│   
+├── train/           # Data training
+│   
+├── val/             # Data validasi
+│   
+├── test/            # Data pengujian
 
 ├── models/              # Folder untuk model
 │   ├── cnn_model.h5     # Model CNN
