@@ -119,6 +119,8 @@ Model CNN menunjukkan kinerja yang sempurna, dengan semua prediksi berada pada d
 
 ![Figure_1](https://github.com/user-attachments/assets/29ff4ba9-78b9-461e-93c2-f02c64387591)
 
+Dzikriansah Nusa Saputra - 202110370311186
+
 
 
 
