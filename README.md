@@ -53,21 +53,34 @@ PIL (Pillow)
 
 
 
-## CNN (Convolutional Neural Network)
-### Struktur Lapisan Utama:
-
-saya menggunakan Conv2D untuk ekstraksi fitur dari citra, MaxPooling2D untuk mengurangi dimensi data, dan Dense Layer untuk klasifikasi akhir, yang sesuai dengan arsitektur CNN standar yang telah saya implementasikan.
+# CNN (Convolutional Neural Network)
+Struktur Lapisan Utama:
+Conv2D: Digunakan untuk mengekstrak fitur dari citra dengan kernel berukuran 3x3.
+MaxPooling2D: Berfungsi untuk mengurangi dimensi data sekaligus mempertahankan fitur penting.
+Dense Layer: Lapisan fully connected untuk melakukan klasifikasi akhir.
+Dropout: Digunakan untuk mencegah overfitting selama pelatihan.
+Arsitektur CNN yang digunakan telah dirancang dengan konfigurasi ini untuk memastikan model dapat belajar dari dataset dengan baik tanpa overfitting.
 
 Hasil Model:
-Akurasi Training: 95.2% dan Akurasi Validasi: 93.8% konsisten dengan hasil evaluasi dari proyek Anda.
+Akurasi Training: 100% (seperti yang terlihat dari confusion matrix dan laporan klasifikasi).
+Akurasi Validasi: 100% (model memberikan prediksi sempurna pada data validasi).
+Observasi: Hasil ini menunjukkan bahwa CNN memiliki performa luar biasa dalam mengklasifikasikan jenis ayam dari citra, tanpa kesalahan.
+
 
 ## ResNet (Residual Neural Network)
-#### Transfer Learning:
-
-ResNet50 pre-trained dari ImageNet, yang merupakan metode umum dalam transfer learning, dan melakukan fine-tuning sesuai dengan dataset klasifikasi ayam. Ini juga sesuai dengan proyek Anda.
-
+Transfer Learning:
+Model ResNet50 menggunakan bobot pre-trained dari dataset ImageNet.
+Fine-tuning dilakukan dengan menambahkan lapisan dense yang disesuaikan dengan jumlah kelas (10 kelas) dan dropout untuk mengurangi risiko overfitting.
+ResNet50 dikenal memiliki kemampuan yang sangat baik dalam mengekstraksi fitur visual berkat penggunaan residual blocks, yang membantu mengatasi vanishing gradient pada jaringan yang sangat dalam.
 Hasil Model:
-Akurasi Training: 97.1% dan Akurasi Validasi: 94.7% mencerminkan keunggulan ResNet dibandingkan CNN, yang sesuai dengan hasil evaluasi Anda.
+Akurasi Training: 43% (seperti terlihat pada laporan klasifikasi).
+Akurasi Validasi: 28% (menunjukkan performa yang rendah pada data validasi).
+Observasi:
+Hasil ini mengindikasikan bahwa model ResNet mengalami kesulitan dalam menangani dataset ini.
+Hal ini mungkin disebabkan oleh:
+Kurangnya data augmentasi untuk meningkatkan generalisasi model.
+Overfitting selama pelatihan, terlihat dari performa yang lebih baik pada data training dibandingkan validasi.
+Dataset mungkin tidak cukup besar untuk melatih model yang kompleks seperti ResNet secara optimal.
 
 ![Screenshot 2024-12-25 191311](https://github.com/user-attachments/assets/711860e7-e040-40a7-b2e5-79db8d7c76c5)
 
