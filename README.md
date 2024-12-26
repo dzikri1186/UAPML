@@ -48,23 +48,9 @@ Seaborn
 PIL (Pillow)
 
 ## Struktur Folder
-chicken-breed-classification/
 
-├── data/                # Folder untuk dataset
-│   ├── train/           # Data untuk training model
-│   ├── val/             # Data untuk validasi model
-│   ├── test/            # Data untuk pengujian model
-├── models/              # Folder untuk menyimpan model
-│   ├── cnn_model.h5     # Model CNN yang telah dilatih
-│   ├── resnet_model.h5  # Model ResNet yang telah dilatih
-├── scripts/             # Folder untuk script Python
-│   ├── train_cnn.py     # Script untuk training CNN
-│   ├── train_resnet.py  # Script untuk training ResNet
-│   ├── evaluate_models.py # Script untuk evaluasi model
-├── web_app/             # Folder untuk aplikasi Streamlit
-│   ├── app.py           # Script utama aplikasi Streamlit
-├── requirements.txt     # File untuk daftar dependencies
-├── README.md            # Dokumentasi proyek
+![Screenshot 2024-12-26 114616](https://github.com/user-attachments/assets/bc534f1d-43b0-4cca-988f-f65e37f6c135)
+
 
 
 ## CNN (Convolutional Neural Network)
